@@ -5,7 +5,7 @@ import ChartThree from '../components/Charts/ChartThree';
 import ChartTwo from '../components/Charts/ChartTwo';
 import DefaultLayout from '../layout/DefaultLayout';
 
-const Chart: React.FC = () => {
+const Chart = () => {
   return (
     <DefaultLayout>
       <Breadcrumb pageName="Chart" />
