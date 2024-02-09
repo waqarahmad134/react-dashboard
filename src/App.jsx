@@ -15,7 +15,7 @@ import Tables from './pages/Tables';
 import Buttons from './pages/UiElements/buttons';
 
 function App() {
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState(true);
   const { pathname } = useLocation();
 
   useEffect(() => {
